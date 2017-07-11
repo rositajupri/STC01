@@ -1,0 +1,89 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = IPGRoad 6.0
+FileCreator = CarMaker 6.0
+Country = SGP
+nLinks = 1
+nJunctions = 0
+nObjects = 73
+nRoutes = 2
+RoadNetworkLength = 320
+BBox = 0 320 -2.5 14.4999934345405 -0.5 0.5
+Route.0.Length = 320
+Route.1.Length = 320
+RMT.0 = UserDefined ""
+RMT.1 = junctionbox ""
+RST.Unit = kmh
+RST = 50 100 -3.6 30 70 50 -3.6 -3.6
+Movie = 0.2 1 0.02 1.5 1.5 1 1
+PathMode = 1
+Link.0.Junctions = -1 -1 -2 -1
+Link.0.Node0 = 0 3 0 0
+Link.0.Friction = 1
+Link.0.Seg.0.Type = Straight
+Link.0.Seg.0.Param = 200 0 0 0 0 0 0 0
+Link.0.Seg.1.Type = Straight
+Link.0.Seg.1.Param = 20 0 0 0 0 0 0 0
+Link.0.Seg.2.Type = Straight
+Link.0.Seg.2.Param = 100 0 0 0 0 0 0 0
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.0.LaneL.0.Width:
+	0 0 0 3 0 -999 -999
+	190 0 0 3 0 -999 -999
+	0 1 0 3 0 -999 -999
+	210 0 0 10 0 -999 -999
+	230 0 0 3 0 -999 -999
+Link.0.LaneSection.0.LaneL.1 = 2 2.5 2.5 5 0 0 0
+Link.0.LaneSection.0.LaneR.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.0.LaneR.0.Width:
+	0 0 0 3 0 -999 -999
+	190 0 0 3 0 -999 -999
+	0 1 0 3 0 -999 -999
+	210 0 0 3 0 -999 -999
+	230 0 0 3 0 -999 -999
+Link.0.LaneSection.0.LaneR.1 = 2 2.5 2.5 5 0 0 0
+Link.0.LaneSection.1.Start = 190.002
+Link.0.LaneSection.1.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.1.LaneL.1 = 0 0 0 14 0 0 0
+Link.0.LaneSection.1.LaneL.1.Width:
+	0 0 0 0 -999 -999 -999
+	10 0 0 3 -999 -999 -999
+	20 0 0 6 -999 -999 -999
+	30 0 0 3 -999 -999 -999
+Link.0.LaneSection.1.LaneL.2 = 2 2.5 2.5 5 0 0 0
+Link.0.LaneSection.1.LaneR.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.1.LaneR.1 = 2 2.5 2.5 5 0 0 0
+Link.0.LaneSection.2.Start = 229.876
+Link.0.LaneSection.2.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.2.LaneL.1 = 2 2.5 2.5 5 0 0 0
+Link.0.LaneSection.2.LaneR.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.2.LaneR.1 = 2 2.5 2.5 5 0 0 0
+Link.0.RoadMarking.0 = 0 0 0 1 0 0 0.12 0 2 0 0 3 6 1 1 4 ""
+Link.0.RoadMarking.1 = 0 0 0 1 0.1 -1 0.12 0 1 0 0 0 0 1 1 4 ""
+Link.0.RoadMarking.2 = 0 0 0 1 -0.1 1 0.12 0 1 0 0 0 0 1 1 4 ""
+Link.0.RoadMarking.3 = 192 0 230 0 3 0 0.12 0 2 0 0 2 1 1 1 4 ""
+Link.0.RoadMarking.4 = 205 0 213 0 3 0 0.2 0 1 1 0 0 0 1 1 1 "1.0,1.0,1.0"
+Link.0.RoadMarking.4.PointList:
+	1 0
+	9 0
+	7 2
+	3 2
+	1 0
+Route.0.Name = Route
+Route.0.LinkList:
+	0 0
+Route.0.Path.0:
+	0 2 0
+	190 2 0
+	210 2 0
+	230 2 0
+	320 2 0
+Route.1.Name = ReverseRoute
+Route.1.LinkList:
+	0 1
+Route.1.Path.0:
+	0 2 0
+	90 2 0
+	110 2 0
+	130 2 0
+	320 2 0
